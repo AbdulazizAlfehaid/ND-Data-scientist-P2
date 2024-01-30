@@ -13,7 +13,7 @@ This project is divided in the following key sections:
 
 ## file structure of the project
 
-- disaster pipeline
+`- disaster pipeline
   
     |-- Home
         |-- Pipelines Preperations Notebooks
@@ -33,7 +33,7 @@ This project is divided in the following key sections:
             |-- models
                 |-- classifier.pkl
                 |-- train_classifier.py
-            |-- README.md
+            |-- README.md`
 
 
 
@@ -67,10 +67,12 @@ This project is divided in the following key sections:
 Run the following commands in the project's root directory to set up your database and model.
 
 1- To run ETL pipeline that cleans data and stores in database python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+
 2- To run ML pipeline that trains classifier and saves python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+
 3- Run the following command in the app's directory to run your web app. python run.py
 
-Note: "Pipelines Preperations Notebooks" folder is not necessary for this project to run.
+**Note**: "Pipelines Preperations Notebooks" folder is not necessary for this project to run.
 
 
 
